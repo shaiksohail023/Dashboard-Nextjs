@@ -1,0 +1,74 @@
+/* app/globals.css */
+
+/* Tailwind CSS directives - essential for Tailwind to work */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ShadCN UI CSS Variables for DARK MODE by default in :root */
+/* These variables define the default dark color palette for your theme.
+   The browser will render with these colors initially. */
+:root {
+  --background: 222.2 84% 4.9%; /* Dark background */
+  --foreground: 210 20% 98%; /* Light foreground text */
+
+  --card: 222.2 84% 4.9%; /* Dark card background */
+  --card-foreground: 210 20% 98%; /* Light card text */
+
+  --popover: 222.2 84% 4.9%; /* Dark popover background */
+  --popover-foreground: 210 20% 98%; /* Light popover text */
+
+  --primary: 142.1 76.2% 36.3%; /* Primary accent color (a shade of GREEN for dark mode) */
+  --primary-foreground: 210 20% 98%; /* Text on primary background (light) */
+
+  --secondary: 217.2 32.6% 17.5%; /* Darker gray secondary background */
+  --secondary-foreground: 210 20% 98%; /* Light text on secondary background */
+
+  --muted: 217.2 32.6% 17.5%; /* Darker gray muted background */
+  --muted-foreground: 215 20.2% 65.1%; /* Lighter gray muted text */
+
+  --accent: 217.2 32.6% 17.5%; /* Darker gray accent background */
+  --accent-foreground: 210 20% 98%; /* Light text on accent background */
+
+  --destructive: 0 62.8% 30.6%; /* Darker red destructive color */
+  --destructive-foreground: 210 20% 98%; /* Light text on destructive background */
+
+  --border: 217.2 32.6% 17.5%; /* Darker border color */
+  --input: 217.2 32.6% 17.5%; /* Darker input field background */
+  --ring: 142.1 76.2% 36.3%; /* Brighter focus ring color (primary green) */
+
+  --radius: 0.5rem; /* Global border-radius value for ShadCN components */
+}
+
+/* ShadCN UI CSS Variables for LIGHT MODE when the 'light' class is present on <html> */
+/* These variables override the default dark mode colors when the 'light' class is active. */
+.light {
+  /* Changed from .dark to .light */
+  --background: 0 0% 100%; /* White background */
+  --foreground: 222.2 84% 4.9%; /* Dark foreground text */
+
+  --card: 0 0% 100%; /* Card background */
+  --card-foreground: 222.2 84% 4.9%; /* Card text */
+
+  --popover: 0 0% 100%; /* Popover background */
+  --popover-foreground: 222.2 84% 4.9%; /* Popover text */
+
+  --primary: 142.1 76.2% 36.3%; /* Primary accent color (a shade of GREEN for light mode) */
+  --primary-foreground: 210 20% 98%; /* Text on primary background (light) */
+
+  --secondary: 210 40% 96.1%; /* Secondary background (light gray) */
+  --secondary-foreground: 222.2 47.4% 11.2%; /* Text on secondary background (dark) */
+
+  --muted: 210 40% 96.1%; /* Muted background (light gray for subtle elements) */
+  --muted-foreground: 215.4 16.3% 46.9%; /* Muted text (medium gray) */
+
+  --accent: 210 40% 96.1%; /* Accent background (for hover/focus states) */
+  --accent-foreground: 222.2 47.4% 11.2%; /* Text on accent background (dark) */
+
+  --destructive: 0 84.2% 60.2%; /* Destructive/error color (red) */
+  --destructive-foreground: 210 20% 98%; /* Text on destructive background (light) */
+
+  --border: 214.3 31.6% 91.4%; /* Border color (light gray) */
+  --input: 214.3 31.6% 91.4%; /* Input field background */
+  --ring: 222.2 84% 4.9%; /* Brighter focus ring color */
+}
