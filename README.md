@@ -1,4 +1,5 @@
-**CRED Garage Inspired Dashboard**
+**CRED Garage Inspired Dashboard: **
+
 A responsive and modern web dashboard inspired by CRED Garage, built with React (Next.js), Tailwind CSS, ShadCN, and Framer Motion.
 
 ✨ Features Overview
